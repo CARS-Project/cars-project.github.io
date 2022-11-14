@@ -1,5 +1,7 @@
 ---
+title: CARS Project
 description: Connecting Administrative vehicle data for Research on Sustainable transport
+image: images/CARS_logo.webp
 ---
 
 Cars and vans are significant contributors to air pollution and climate change. This project will enable analysis of issues and trends relating to use of these vehicles at a national, regional and local level. 
