@@ -8,6 +8,8 @@ pygmentsCodeFences = true
 pygmentsCodefencesGuessSyntax = true
 pygmentsUseClasses = true
 
+disableKinds = ['taxonomy', 'term']
+
 [module]
   [module.hugoVersion]
     extended = true
