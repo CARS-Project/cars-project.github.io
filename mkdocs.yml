@@ -1,0 +1,19 @@
+site_name: CARS Project
+site_description: Connecting Administrative vehicle data for Research on Sustainable transport
+site_url: https://cars-project.github.io/
+site_favicon: assets/favicon.png
+
+nav:
+  - Home: index.md
+  - Team: team.md
+  - Data: data.md
+  - GitHub: https://github.com/cars-project
+
+theme:
+  name: mkdocs
+  locale: en_GB
+  color_mode: auto
+  custom_dir: theme
+
+extra_css:
+  - assets/style.css

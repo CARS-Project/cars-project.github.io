@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+
+{%- block next_prev %}{# Remove previous/next buttons #}{%- endblock %}
+
+{%- block content %}
+    {# Hide TOC #}
+    <div class="col-md-8 offset-md-2" role="main">{% include "content.html" %}</div>
+{%- endblock %}
+
+{%- block footer %}
+    <hr>
+    <p>
+        CARS Project is a collaboration between
+        <a href="https://www.leeds.ac.uk/">University of Leeds</a> and
+        <a href="https://www.bristol.ac.uk/">University of Bristol</a> and is funded by
+        <a href="https://www.adruk.org/">ADR UK</a>.
+    </p>
+{%- endblock %}
