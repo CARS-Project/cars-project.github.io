@@ -5,13 +5,15 @@
 - Professor Jillian Anable (Principal investigator)
 - Dr Ian Phillips
 - Dr Malcolm Morgan
-
+- Dr Caroline Tait
+ 
 ## University of Bristol
 
-* Professor Eddie Wilson
-* James Thomas
-* Dr Will Chapman
+- Professor Eddie Wilson
+- James Thomas
+- Dr Will Chapman
+- Dr Benedict Westhenry
 
 ## Independent Consultant
 
-* Dr Sally Cairns
+- Dr Sally Cairns
