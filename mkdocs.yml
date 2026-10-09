@@ -5,8 +5,9 @@ site_favicon: assets/favicon.png
 
 nav:
   - Home: index.md
-  - Team: team.md
+  - Events: events.md
   - Data: data.md
+  - Team: team.md
   - GitHub: https://github.com/cars-project
 
 theme:
