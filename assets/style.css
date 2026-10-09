@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+:root {
+    --bs-body-font-family: 'Open Sans', sans-serif;
+    --bs-body-font-size: 1.2rem;
+    --bs-primary: rgb(var(--bs-primary-rgb));
+    --bs-primary-rgb: 1, 125, 200;
+    --bs-body-color: rgb(var(--bs-body-color-rgb));
+    --bs-body-color-rgb: 8, 8, 9;
+    --bs-link-color: rgb(var(--bs-link-color-rgb));
+    --bs-link-color-rgb: 0, 109, 175;
+    --bs-link-hover-color: rgb(var(--bs-link-hover-color-rgb));
+    --bs-link-hover-color-rgb: 19, 66, 93;
+    --focus-color: rgb(240, 230, 0);
+}
+
+[data-bs-theme="dark"] {
+    --bs-body-color: rgb(var(--bs-body-color-rgb));
+    --bs-body-color-rgb: 255, 255, 255;
+    --bs-link-color: rgb(var(--bs-link-color-rgb));
+    --bs-link-color-rgb: 75, 187, 255;
+    --bs-link-hover-color: rgb(var(--bs-link-hover-color-rgb));
+    --bs-link-hover-color-rgb: 0, 159, 255;
+}
+
+body::before {
+    content: none;
+}
+
+.navbar.bg-primary {
+    background-image: unset;
+}
+
+.navbar-brand {
+    font-weight: 700;
+}
+
+h1, h2, h3 {
+    font-weight: 700;
+}
+
+h1 {
+    color: var(--bs-primary);
+    margin-bottom: 2rem;
+}
+
+a {
+    text-decoration-thickness: 0.1em;
+    text-underline-offset: 0.2em;
+
+    &:hover, &:focus, &:focus-visible {
+        text-decoration-thickness: 0.2em;
+        text-decoration-skip-ink: none;
+    }
+
+    &:focus, &:focus-visible {
+        color: #000 !important;
+        background: var(--focus-color) !important;
+        outline: none !important;
+    }
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    margin: 0 auto 1rem;
+}
+
+footer { /* Fix for incorrect grid system usage in theme */
+    display: block !important;
+    margin: 2rem 1rem !important;
+    width: auto !important;
+}
+
+:focus {
+    box-shadow: none !important;
+    outline: 4px solid var(--focus-color) !important;
+}
