@@ -4,4 +4,5 @@ The [project team](team.md) will develop and link data sources focused on the us
 
 This dataset will be comprised of: 
 
-- **MOT data** which includes the make, model, age and odometer reading of every vehicle taking a road worthiness test in Great Britain
+- **MOT data** which includes the make, model, fuel type, age and odometer reading of every vehicle taking a road worthiness test in Great Britain (and for some versions of the source data, the UK).
+- **Vehicle data** which includes the make, fuel type, age, CO2 emissions, Euro emission status, weight and type approval of vehicles registered and taxed in the UK.
